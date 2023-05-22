@@ -6,7 +6,7 @@ IMUNES GUI is a simple Tcl/Tk based management console, allowing for
 specification and management of virtual network topologies. The emulation
 execution engine itself operates within the operating system kernel.
 
-Version Info :
+Version Info :>
 -------------------
 
 Note: This specific version of imunes has NOT been tested on FreeBSD
