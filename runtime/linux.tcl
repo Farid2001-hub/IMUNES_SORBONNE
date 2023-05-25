@@ -162,6 +162,7 @@ global dynacurdir
                         if {([[typemodel $node].virtlayer] == "WIFIAP" || [[typemodel $node].virtlayer] == "WIFISTA") && $ifc == "hwsim0"} {
      			            catch "exec ip link set $ifc up"
       			            catch "exec wireshark -ki $ifc -o gui.window_title:$ifc@[getNodeName $node] &"
+				    puts "test de modification"
                         } else {
       			                catch "exec ip netns exec $node_id1 wireshark -ki $ifc -o gui.window_title:$ifc@[getNodeName $node] &"
 						}
